@@ -1,0 +1,139 @@
+.home__container {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap:20px */
+}
+.home__data-content
+{
+    margin-top: 5rem;
+}
+.meta__img
+{
+    width: 100px;
+}
+.home__data {
+    justify-content: center;
+    
+}
+.home__handle
+{
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+}
+.event-post-wrapper{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    border-radius: 10px 0 10px 10px;
+    position: relative;
+
+}
+.new-gold-text-wrapper{
+    position: absolute;
+    top: -21.5px;
+    right: 0;
+    background-color: gold;
+    border-radius: 10px 10px 0 0 ;
+    padding: 3px;
+    /* z-index: 10000; */
+}
+.home__handle img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.home__greeting {
+    display: block;
+    color:#0668E1;
+    font-size: 120px;
+    font-weight: 450;
+    margin-bottom: 0.25rem;
+}
+
+.home__name
+{
+    font-size: 40px;
+    margin: 10px;
+}
+.home__education {
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 2.5rem;
+}
+
+.home__img {
+    width: 450px;
+}
+
+
+.home__scroll {
+    position: absolute;
+}
+
+
+.home__scroll {
+    color: var(--first-color);
+    right: -1.5rem;
+    bottom: 4rem;
+    display: grid;
+    row-gap: 2.25rem;
+    justify-content: center;
+    /* margin: auto; */
+    /* align-items: center; */
+}
+
+.home__scroll-icon {
+    /* display: grid; */
+    justify-self: center;
+    font-size: 1.25rem;
+}
+
+.home__scroll-name {
+    font-size: var(--smaller-font-size);
+    transform: rotate(-90deg);
+}
+
+
+@media screen and (max-width:576px) 
+{
+    .meta__img
+    {
+        width: 80px;
+    }
+    .home__greeting {
+        font-size: 100px;
+        font-weight: 400;
+    }
+    .home__container {
+        grid-template-columns: 1fr ;
+    }
+    .home__name
+{
+    font-size: 40px;
+}
+.home__education {
+    font-size: 20px;
+
+}
+    .home__img {
+        margin-top: 80px;
+    width: 250px;
+}
+.home__handle
+{
+    max-width: 0rem;
+    display: none;
+}
+    
+}
+
+.headimg
+{
+    width: 10px;
+}
